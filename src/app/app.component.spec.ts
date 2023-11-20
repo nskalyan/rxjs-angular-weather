@@ -1,4 +1,5 @@
-import { TestBed, async } from '@angular/core/testing';
+import { TestBed ,ComponentFixture } from '@angular/core/testing';
+import { RouterTestingModule } from '@angular/router/testing';
 import { AppComponent } from './app.component';
 
 describe('AppComponent', () => {
@@ -29,3 +30,7 @@ describe('AppComponent', () => {
     expect(compiled.querySelector('.content span').textContent).toContain('rxjs-angular-weather app is running!');
   });
 });
+function async(arg0: () => void): (done: DoneFn) => Promise<void> {
+  throw new Error('Function not implemented.');
+}
+

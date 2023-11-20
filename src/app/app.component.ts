@@ -37,6 +37,7 @@ export class AppComponent implements OnInit, OnDestroy {
   cityControl: FormControl;
 
   cities$: Observable<string>;
+  title: any;
 
   constructor(private router: Router) { }
 

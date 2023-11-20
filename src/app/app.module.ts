@@ -14,6 +14,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { WeatherReportComponent } from './weather-report/weather-report.component';
 import { HttpClientModule } from '@angular/common/http';
 
+
 const routes: Routes = [
   {
     path: '',
